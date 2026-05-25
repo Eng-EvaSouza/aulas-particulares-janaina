@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  background-color: #fff8f6;
+  color: #1d2f4f;
+}
+
+.topo {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #fff8f6;
+}
+
+.logo {
+  width: 230px;
+  max-width: 100%;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 70px 20px;
+  background-color: #ffffff;
+  flex-wrap: wrap;
+}
+
+.hero-texto {
+  max-width: 520px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  color: #d69aa0;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.hero p {
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.foto-perfil {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #f0c9c9;
+}
+
+.botao {
+  display: inline-block;
+  background-color: #1d2f4f;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.botao:hover {
+  background-color: #d69aa0;
+}
+
+.sobre,
+.servicos,
+.contato {
+  max-width: 900px;
+  margin: 60px auto;
+  padding: 50px 30px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.sobre h2,
+.servicos h2,
+.contato h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+.sobre p,
+.contato p {
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff8f6;
+  padding: 25px;
+  border-radius: 15px;
+  width: 260px;
+  text-align: center;
+}
+
+.card h3 {
+  color: #d69aa0;
+  margin-bottom: 15px;
+}
+
+.card p {
+  color: #555;
+  line-height: 1.6;
+}
+
+.contato {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 30px 20px;
+  background-color: #1d2f4f;
+  color: white;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.3rem;
+  }
+
+  .foto-perfil {
+    width: 230px;
+    height: 230px;
+  }
+
+  .sobre,
+  .servicos,
+  .contato {
+    margin: 30px 15px;
+    padding: 35px 20px;
+  }
+}
